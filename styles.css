@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #000;
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  max-width: 560px;
+}
+
+.logo {
+  width: 360px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+}
+
+
+@media (max-width: 480px) {
+  .logo {
+    width: 260px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
